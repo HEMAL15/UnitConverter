@@ -74,7 +74,7 @@ fun UnitConverter() {
 
     Column (modifier=Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally){
-        Text("UNIT CONVERETER",style = MaterialTheme.typography.headlineLarge))
+        Text("UNIT CONVERETER",style = MaterialTheme.typography.headlineLarge)
         Spacer(modifier=Modifier.height(16.dp))
         OutlinedTextField(value = input, onValueChange = {
             input= it
